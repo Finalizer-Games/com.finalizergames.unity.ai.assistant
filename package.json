@@ -1,16 +1,15 @@
 {
-  "name": "com.unity.ai.assistant",
-  "displayName": "Assistant",
+  "name": "com.finalizergames.unity.ai.assistant",
+  "displayName": "Assistant - Finalizer Games Fork",
   "version": "1.0.0-pre.6",
-  "unity": "6000.2",
+  "unity": "2021.3",
   "description": "Use AI for project-aware information retrieval, troubleshooting, code generation, assistance, and scene editing.\n\nAsk\nSolve hard problems or get ideas for your project. Assistant provides you with relevant answers based on the context of your project.\n\nRun\nAutomate actions in the Editor to tackle repetitive tasks and streamline workflows. Use natural language to scatter objects across terrain, adjust lighting, rename assets, restructure project files, and more.\n\nCode\nReduce the time and effort required to structure gameplay mechanics by using Assistant to create pre-compiled scripts.",
   "dependencies": {
     "com.unity.nuget.newtonsoft-json": "3.2.1",
     "com.unity.modules.unitywebrequest": "1.0.0",
-    "com.unity.serialization": "3.1.1",
+    "com.unity.serialization": "2.1.0",
     "com.unity.ai.toolkit": "1.0.0-pre.12"
   },
-  "unityRelease": "0a9",
   "_upm": {
     "changelog": "- Bump AI Toolkit to 1.0.0-pre.12\n- Fixed issue blocking .NET Standard Editor compatibility\n- Minor UI fixes\n- Minor bug fixes\n- Improved attachment selection UX\n- Fixed issue adding additional attached context to prompts\n- Added support for array types as run parameter field."
   },
